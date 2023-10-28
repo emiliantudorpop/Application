@@ -1,6 +1,10 @@
-public calss Application	{
+public class Application	{
 	
-	public static void main(String[] arg)  {
+	public static void main(String[] args)  {
 		System.out.println("Welcome!");
+		presentDeveloperOne();
+	}
+	public static void presentDeveloperOne()  {
+		System.out.println("Developer One is awesome!");
 	}
 }
